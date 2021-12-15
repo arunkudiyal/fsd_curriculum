@@ -119,12 +119,33 @@ p {
     color: white;
 }
 
+table thead th {
+    text-align: center; 
+    font-size: 1.2em;
+}
+
 .lead {
     font-size: 11px;
 }
 
 /* Tablet Views */
 @media (min-width: 480px) {
+    .lead {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    ul {
+        padding-left: 1em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
+
     #header {
         height: 18vh;
         background-color: #000;
@@ -146,28 +167,66 @@ p {
         background-position: center;
     }
 
+    #course-image-1, #course-image-2, #course-image-3, #course-image-4, #course-image-5, #course-image-6, #course-image-7, #course-image-8, #course-image-9, #course-image-10, #course-image-11, #course-image-12 {
+        width: 7em;
+    }
+
+    .page-breaker {
+        border: 1px solid black;
+        height: 1.5em;
+    }
+    
+    .page-breaker-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+    }
+    
+    .page-breaker-container p {
+        color: white;
+    }
+
     #front-page-footer p {
-        font-size: 0.8em;
+        font-size: 0.6em;
         text-align: center;
     }
 
-    .module-heading {
+    .module-heading, .module-heading-two, .module-heading-three {
         background-color: black;
         padding-left: 1em;
         width: 45vw;
-        height: 8vh;
-        padding-top: 0.5em;
+        height: 7vh;
         border-radius: 0 15% 15% 0;
+        margin: 1em 0em;
     }
     
-    .module-heading p {
+    .module-heading p, .module-heading-two p, .module-heading-three p {
+        color: white;
+        font-size: 2em;
+    }
+
+    .module-header {
+        background-color: black;
+        margin: 0em 2em;
+        padding: 0.1em 1em;
+        border-radius: 10px;
+        margin-bottom: 1em;
+    }
+    
+    .module-header p {
         color: white;
         font-size: 2.3em;
+        text-align: center;
+    }
+
+    table thead th {
+        text-align: center; 
+        font-size: 1.2em;
     }
 }
 
 /* Desktop View */
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     #header {
         height: 18vh;
         background-color: #000;
