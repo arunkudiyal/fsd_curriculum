@@ -104,14 +104,14 @@ p {
 } 
 
 .page-breaker {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 1.5em;
     /* margin-bottom: 2em; */
 }
 
 .page-breaker-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: black;
 }
 
@@ -172,13 +172,13 @@ table thead th {
     }
 
     .page-breaker {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         height: 1.5em;
     }
     
     .page-breaker-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: black;
     }
     
@@ -193,9 +193,9 @@ table thead th {
 
     .module-heading, .module-heading-two, .module-heading-three {
         background-color: black;
-        padding-left: 1em;
+        padding-left: 0em;
         width: 45vw;
-        height: 5vh;
+        height: 6vh;
         border-radius: 0 15% 15% 0;
         margin: 1em 0em;
     }
