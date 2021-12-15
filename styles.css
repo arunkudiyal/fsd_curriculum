@@ -274,6 +274,12 @@ table thead th {
         border-radius: 0 15% 15% 0;
         margin: 1em 0em;
     }
+
+    .page-breaker-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
     
     .module-heading p, .module-heading-two p, .module-heading-three p {
         color: white;
